@@ -127,4 +127,39 @@ You will accomplish the following items at the conclusion of the module:
 
 ## SASE Integration: Umbrella and Duo
 
+1. Create a Python script that will look at Umbrella security events from the previous 7 days and disable associated users accounts in Duo.
+
+2. Follow the steps outlined in the Learning Lab: https://developer.cisco.com/learning/tracks/devnet-express-security/security-sase/sase-7-umbrella-duo/introduction/
+
+<img width="397" alt="integration" src="https://user-images.githubusercontent.com/10421515/185967873-37e0293d-f18f-4958-8814-88573857aa17.png">
+
+* While building the script using the lab guide, be sure to replace the API keys and Umbrella environment with those from your dCloud instance.
+
+REPLACE THIS!
+``` python
+# import script constants
+duo_integration_key = env.DUO_INTEGRATION_KEY
+duo_secret_key = env.DUO_SECRET_KEY
+duo_api_host = env.DUO_API_HOST
+umb_token_url = "https://management.api.umbrella.com/auth/v2/oauth2/token"
+umb_client_id = env.UMBRELLA_REPORTING_KEY
+umb_client_secret = env.UMBRELLA_REPORTING_SECRET
+umb_org_id = env.UMBRELLA_ORG_ID
+```
+WITH THIS!
+``` python
+# import script constants
+duo_integration_key = 'YOUR DUO API KEY'
+duo_secret_key = 'YOUR DUO SECRET KEY'
+duo_api_host = env.DUO_API_HOST
+umb_token_url = "https://management.api.umbrella.com/auth/v2/oauth2/token"
+umb_client_id = 'YOUR UMBRELLA API KEY'
+umb_client_secret = 'YOUR UMBRELLA SECRET KEY'
+umb_org_id = 'YOUR UMBRELLA ORG ID'
+```
+## Conclusion
+
+Thank you for taking time at Impact to learn about our new seecurity DevNet Express content and programmability for our SASE solution.  If you'd like to schedule an event for your customers, partners, or your team, please reach out to me.  
+
+Have a great Impact event!
 
