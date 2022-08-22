@@ -30,7 +30,8 @@ You will be using the IDE to write your code and the terminal below will execute
   * [Your DevNet Learning Lab 2.0 Environment](#your-devnet-learning-lab-20-environment)
 - [Setting up your SASE Environment and Introduction to Duo](#setting-up-your-sase-environment-and-introduction-to-duo)
     + [Creating, Reading and Deleting Duo Users with the API](#creating--reading-and-deleting-duo-users-with-the-api)
-- [Umbrella Network Tunnels](#umbrella-network-tunnels)
+- [Setting up your Umbrella Environment and Intro to Umbrella Management API](#setting-up-your-umbrella-environment-and-intro-to-umbrella-management-api)
+    + [Hands on with Umbrella Network Tunnel Management API](#hands-on-with-umbrella-network-tunnel-management-api)
 - [SASE Integration: Umbrella and Duo](#sase-integration--umbrella-and-duo)
 - - -
 
@@ -73,12 +74,10 @@ You will accomplish the following items at the conclusion of the module:
 * Writing a python script that programmatically adds a new user 'granite' to the Duo Users.
 * Disables the 'granite' user using the API.
 
-## Umbrella Network Tunnels
+## Setting up your Umbrella Environment and Intro to Umbrella Management API
 
 1. Follow these steps to initialize your Duo Admin User and generate an API Key for this lab. 
 > https://developer.cisco.com/learning/tracks/devnet-express-security/security-sase/sase-5-umbrella-tunnels/introduction/
-
-<img width="392" alt="tunnel api" src="https://user-images.githubusercontent.com/10421515/185958539-b1edf37b-fe92-454d-a15a-a03f6afe99d3.png">
 
 2. Generate your Umbrella Management API Key in the Cisco SASE v2 lab.  Click on the **Demo Ready** icon on the desktop.
 
@@ -94,7 +93,11 @@ You will accomplish the following items at the conclusion of the module:
 
 * **COPY API KEY AND SECRET LOCALLY. YOU WILL NEED IT FOR THIS EXERCISE**
 
+### Hands on with Umbrella Network Tunnel Management API
+
 Complete steps 3 and 4 in the Learning Lab environment.
+
+<img width="392" alt="tunnel api" src="https://user-images.githubusercontent.com/10421515/185958539-b1edf37b-fe92-454d-a15a-a03f6afe99d3.png">
 
 > **Note**
 > You will need to use the API key YOU GENERATED to see the results in your environment.  Replace the following lines at the top of your Python script to use your API key rather than the one included in the Learning Environment.  You will also need your organization ID from the dCloud lab.  You can find it in the URL for the Umbrella console as referenced in the image below.
