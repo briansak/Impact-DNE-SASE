@@ -18,6 +18,12 @@ The learning environment uses containers and doesn't require a dedicated develop
 
 You will be using the IDE to write your code and the terminal below will execute the Python scripts.
 
+If you get stuck, need a hint, or just want to jump to the answer, all of the solutions are posted as part of the environment in `/src/solutions/sase` folder.
+
+<img width="1420" alt="image" src="https://user-images.githubusercontent.com/10421515/185951919-3b00a808-32d5-4a37-802e-be2612bde76f.png">
+
+You will be using the IDE to write your code and the terminal below will execute the Python scripts.
+
 ## Setting up your SASE Environment and Introduction to Duo
 
 <img width="397" alt="Intro to Duo" src="https://user-images.githubusercontent.com/10421515/185945491-b5a060f1-7286-4697-b931-dcb168e6f101.png">
