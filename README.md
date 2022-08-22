@@ -120,6 +120,9 @@ umb_client_id = 'YOUR MANAGEMENT API KEY'
 umb_client_secret = 'YOUR MANAGEMENT SECRET KEY'
 umb_org_id = 'YOUR ORG ID'
 ```
+**Note**
+**The idPrefix variable MUST BE AT LEAST 8 CHARACTERS when creating the tunnel definition.**
+
 You will accomplish the following items at the conclusion of the module:
 
 * Automating the creation of tunnel interfaces into Umbrella using the Umbrella Management API.
