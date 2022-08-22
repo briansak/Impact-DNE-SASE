@@ -87,7 +87,7 @@ You will accomplish the following items at the conclusion of the module:
 
 <img width="1420" alt="demo ready" src="https://user-images.githubusercontent.com/10421515/185957126-907214ce-45ed-4034-9305-f0676c7034c8.png">
 
-4. Navigate to Admin -> API Key, find Umbrella Management and click **Generate Token**.
+4. Navigate to **Admin -> API Keys**, find Umbrella Management and click **Generate Token**.
 
 <img width="1420" alt="umbrella api" src="https://user-images.githubusercontent.com/10421515/185957674-0f22c3c3-86c0-4f76-b76b-8b6d00e1b6c8.png">
 
@@ -116,20 +116,27 @@ WITH THIS!
 ``` python
 # set global variables
 token_url = "https://management.api.umbrella.com/auth/v2/oauth2/token"
-umb_client_id = 'YOUR API KEY'
-umb_client_secret = 'YOUR SECRET KEY'
+umb_client_id = 'YOUR MANAGEMENT API KEY'
+umb_client_secret = 'YOUR MANAGEMENT SECRET KEY'
 umb_org_id = 'YOUR ORG ID'
 ```
 You will accomplish the following items at the conclusion of the module:
 
 * Automating the creation of tunnel interfaces into Umbrella using the Umbrella Management API.
 * Querying details about the tunnel interfaces.
+* Seeing the built tunnels on the Umbrella Console
 
 ## SASE Integration: Umbrella and Duo
 
-1. Create a Python script that will look at Umbrella security events from the previous 7 days and disable associated users accounts in Duo.
+1. Return to the Umbrella Console and generate a Reporting API Key.  This can be found in **Admin -> API Keys** then Umbrella Reporting.
 
-2. Follow the steps outlined in the Learning Lab: https://developer.cisco.com/learning/tracks/devnet-express-security/security-sase/sase-7-umbrella-duo/introduction/
+<img width="1420" alt="reporting" src="https://user-images.githubusercontent.com/10421515/185997667-4444dec5-5984-4d39-b6a6-f771ec8438a3.png">
+
+* **COPY API KEY AND SECRET LOCALLY. YOU WILL NEED IT FOR THIS EXERCISE**
+
+2. Create a Python script that will look at Umbrella security events from the previous 7 days and disable associated users accounts in Duo.
+
+3. Follow the steps outlined in the Learning Lab: https://developer.cisco.com/learning/tracks/devnet-express-security/security-sase/sase-7-umbrella-duo/introduction/
 
 <img width="397" alt="integration" src="https://user-images.githubusercontent.com/10421515/185967873-37e0293d-f18f-4958-8814-88573857aa17.png">
 
@@ -153,8 +160,8 @@ duo_integration_key = 'YOUR DUO API KEY'
 duo_secret_key = 'YOUR DUO SECRET KEY'
 duo_api_host = env.DUO_API_HOST
 umb_token_url = "https://management.api.umbrella.com/auth/v2/oauth2/token"
-umb_client_id = 'YOUR UMBRELLA API KEY'
-umb_client_secret = 'YOUR UMBRELLA SECRET KEY'
+umb_client_id = 'YOUR UMBRELLA REPORTING API KEY'
+umb_client_secret = 'YOUR UMBRELLA REPORTING SECRET KEY'
 umb_org_id = 'YOUR UMBRELLA ORG ID'
 ```
 ## Conclusion
