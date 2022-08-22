@@ -24,6 +24,16 @@ If you get stuck, need a hint, or just want to jump to the answer, all of the so
 
 You will be using the IDE to write your code and the terminal below will execute the Python scripts.
 
+- - -
+**Quick Access**
+- [Accessing Your SASE Environment](#accessing-your-sase-environment)
+  * [Your DevNet Learning Lab 2.0 Environment](#your-devnet-learning-lab-20-environment)
+- [Setting up your SASE Environment and Introduction to Duo](#setting-up-your-sase-environment-and-introduction-to-duo)
+    + [Creating, Reading and Deleting Duo Users with the API](#creating--reading-and-deleting-duo-users-with-the-api)
+- [Umbrella Network Tunnels](#umbrella-network-tunnels)
+- [SASE Integration: Umbrella and Duo](#sase-integration--umbrella-and-duo)
+- - -
+
 ## Setting up your SASE Environment and Introduction to Duo
 
 <img width="397" alt="Intro to Duo" src="https://user-images.githubusercontent.com/10421515/185945491-b5a060f1-7286-4697-b931-dcb168e6f101.png">
