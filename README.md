@@ -20,7 +20,7 @@ You will be using the IDE to write your code and the terminal below will execute
 
 If you get stuck, need a hint, or just want to jump to the answer, all of the solutions are posted as part of the environment in `/src/solutions/sase` folder.
 
-<img width="1420" alt="image" src="https://user-images.githubusercontent.com/10421515/185951919-3b00a808-32d5-4a37-802e-be2612bde76f.png">
+<img width="705" alt="solutions" src="https://user-images.githubusercontent.com/10421515/185953534-ffd030c9-3a18-44da-b74e-9e5cb33758b1.png">
 
 You will be using the IDE to write your code and the terminal below will execute the Python scripts.
 
