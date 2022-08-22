@@ -32,7 +32,7 @@ You will be using the IDE to write your code and the terminal below will execute
     + [Creating, Reading and Deleting Duo Users with the API](#creating--reading-and-deleting-duo-users-with-the-api)
 - [Setting up your Umbrella Environment and Intro to Umbrella Management API](#setting-up-your-umbrella-environment-and-intro-to-umbrella-management-api)
     + [Hands on with Umbrella Network Tunnel Management API](#hands-on-with-umbrella-network-tunnel-management-api)
-- [SASE Integration: Umbrella and Duo](#sase-integration--umbrella-and-duo)
+- [SASE Integration: Umbrella and Duo](#sase-integration-umbrella-and-duo)
 - - -
 
 ## Setting up your SASE Environment and Introduction to Duo
