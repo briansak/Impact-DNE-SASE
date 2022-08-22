@@ -1,4 +1,5 @@
 # Cisco Impact DevNet Express SASE Session
+http://cs.co/devnetsase-impact23
 
 Welcome!  This session is a sample of the **brand new** Security DevNet Express content available to you, your customers, and your partners.  This module will introduce you to some simple ways we can use automation to manage, deploy, and monitor SSE and SASE solutions.  You will be using **two** resources for these exercises, the DevNet Express 2.0 learning environment and a SASE v2 dCloud Lab.
 
