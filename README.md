@@ -1,13 +1,13 @@
 # Cisco Impact DevNet Express SASE Session
 http://cs.co/devnetsase-impact23
 
-Welcome!  This session is a sample of the **brand new** Security DevNet Express content available to you, your customers, and your partners.  This module will introduce you to some simple ways we can use automation to manage, deploy, and monitor SSE and SASE solutions.  You will be using **two** resources for these exercises, the DevNet Express 2.0 learning environment and a SASE v2 dCloud Lab.
+Welcome!  This session is a sample of the **brand new** Security DevNet Express content available to you, your customers, and your partners.  This module will introduce you to some simple ways we can use automation to manage, deploy, and monitor SSE and SASE solutions.  You will be using **two** resources for these exercises, the DevNet Express 2.0 Learning Lab environment and a Cisco SASE v2 dCloud Lab.
 
 <img width="1420" alt="DNE" src="https://user-images.githubusercontent.com/10421515/185941156-3632b79c-24fb-4e08-903d-617d8400bd04.png">
 
 ## Accessing Your SASE Environment
 
-1. Access your Lab Environment here: 
+1. Access your dCloud Lab Environment here: 
 > Use an incognito or private window to access the lab environment!
 > https://dcloud.cisco.com/expo/16r4tlz2xklhv16lxp5ue0lu1
 
@@ -19,11 +19,9 @@ The learning environment uses containers and doesn't require a dedicated develop
 
 You will be using the IDE to write your code and the terminal below will execute the Python scripts.
 
-If you get stuck, need a hint, or just want to jump to the answer, all of the solutions are posted as part of the environment in `/src/solutions/sase` folder.
+If you get stuck, need a hint, or just want to jump to the answer, all of the solutions are posted as part of the environment in `~/src/solutions/sase` folder.
 
 <img width="705" alt="solutions" src="https://user-images.githubusercontent.com/10421515/185953534-ffd030c9-3a18-44da-b74e-9e5cb33758b1.png">
-
-You will be using the IDE to write your code and the terminal below will execute the Python scripts.
 
 - - -
 **Quick Access**
