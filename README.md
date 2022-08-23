@@ -13,7 +13,7 @@ Welcome!  This session is a sample of the **brand new** Security DevNet Express 
 
 ## Your DevNet Learning Lab 2.0 Environment
 
-The learning environment uses containers and doesn't require a dedicated development environment as we did for DevNet Express 1.0 and 1.1.
+The learning environment uses containers and doesn't require a dedicated development environment as we did for DevNet Express 1.0 and 1.1. The foundation of this workshop available here: https://developer.cisco.com/learning/tracks/devnet-express-security/security-sase/.  Open this page in a new window and authenticate using one of the available federations.
 
 <img width="1420" alt="Interface" src="https://user-images.githubusercontent.com/10421515/185941577-b6b1b9af-b9a9-4265-9ac3-0fd17a16cbd0.png">
 
