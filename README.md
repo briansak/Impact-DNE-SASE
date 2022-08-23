@@ -5,6 +5,17 @@ Welcome!  This session is a sample of the **brand new** Security DevNet Express 
 
 <img width="1420" alt="DNE" src="https://user-images.githubusercontent.com/10421515/185941156-3632b79c-24fb-4e08-903d-617d8400bd04.png">
 
+- - -
+**Quick Access**
+- [Accessing Your SASE Environment](#accessing-your-sase-environment)
+  * [Your DevNet Learning Lab 2.0 Environment](#your-devnet-learning-lab-20-environment)
+- [Setting up your SASE Environment and Introduction to Duo](#setting-up-your-sase-environment-and-introduction-to-duo)
+    + [Creating, Reading and Deleting Duo Users with the API](#creating--reading-and-deleting-duo-users-with-the-api)
+- [Setting up your Umbrella Environment and Intro to Umbrella Management API](#setting-up-your-umbrella-environment-and-intro-to-umbrella-management-api)
+    + [Hands on with Umbrella Network Tunnel Management API](#hands-on-with-umbrella-network-tunnel-management-api)
+- [SASE Integration: Umbrella and Duo](#sase-integration-umbrella-and-duo)
+- - -
+
 ## Accessing Your SASE Environment
 
 1. Access your dCloud Lab Environment here: 
@@ -22,17 +33,6 @@ You will be using the IDE to write your code and the terminal below will execute
 If you get stuck, need a hint, or just want to jump to the answer, all of the solutions are posted as part of the environment in `~/src/solutions/sase` folder.
 
 <img width="705" alt="solutions" src="https://user-images.githubusercontent.com/10421515/185953534-ffd030c9-3a18-44da-b74e-9e5cb33758b1.png">
-
-- - -
-**Quick Access**
-- [Accessing Your SASE Environment](#accessing-your-sase-environment)
-  * [Your DevNet Learning Lab 2.0 Environment](#your-devnet-learning-lab-20-environment)
-- [Setting up your SASE Environment and Introduction to Duo](#setting-up-your-sase-environment-and-introduction-to-duo)
-    + [Creating, Reading and Deleting Duo Users with the API](#creating--reading-and-deleting-duo-users-with-the-api)
-- [Setting up your Umbrella Environment and Intro to Umbrella Management API](#setting-up-your-umbrella-environment-and-intro-to-umbrella-management-api)
-    + [Hands on with Umbrella Network Tunnel Management API](#hands-on-with-umbrella-network-tunnel-management-api)
-- [SASE Integration: Umbrella and Duo](#sase-integration-umbrella-and-duo)
-- - -
 
 ## Setting up your SASE Environment and Introduction to Duo
 
