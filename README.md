@@ -120,6 +120,9 @@ umb_client_id = 'YOUR MANAGEMENT API KEY'
 umb_client_secret = 'YOUR MANAGEMENT SECRET KEY'
 umb_org_id = 'YOUR ORG ID'
 ```
+
+When creating the tunnel, you will need to choose a unique tunnel name, define an idPrefix string, and secret.  A pre-defined secret is included.
+
 > **Note**
 > **The idPrefix variable MUST BE AT LEAST 8 CHARACTERS when creating the tunnel definition.**
 
