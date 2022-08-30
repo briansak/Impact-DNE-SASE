@@ -72,6 +72,7 @@ You will accomplish the following items at the conclusion of the module:
 
 * Writing a python script that programmatically adds a new user 'granite' to the Duo Users.
 * Disables the 'granite' user using the API.
+* Re-enables the 'granite' user using the API.
 
 ## Setting up your Umbrella Environment and Intro to Umbrella Management API
 
