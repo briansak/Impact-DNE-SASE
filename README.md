@@ -66,7 +66,7 @@ WITH THIS!
 import environment as env
 duo_integration_key = 'YOUR API KEY'
 duo_secret_key = 'YOUR SECRET KEY'
-duo_api_host = env.DUO_API_HOST
+duo_api_host = 'api-demodemo.duosecurity.com'
 ```
 You will accomplish the following items at the conclusion of the module:
 
