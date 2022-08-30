@@ -20,7 +20,7 @@ Welcome!  This workshop is a sample of the **brand new** Security DevNet Express
 
 1. Access your dCloud Lab Environment here: 
 > Use an incognito or private window to access the lab environment!
-> https://dcloud.cisco.com/expo/16r4tlz2xklhv16lxp5ue0lu1
+> https://dcloud.cisco.com/expo/aov2xv8st20r2w0rfsl26luv6
 
 ## Your DevNet Learning Lab 2.0 Environment
 
